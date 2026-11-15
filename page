@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>WBS - Projet : Robot bio hybride PSE Mycélium</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #ffffff;
+      color: #000000;
+    }
+    h1 {
+      font-size: 16pt;
+      font-weight: normal;
+      margin-bottom: 20px;
+      color: #202124;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 1100px;
+      font-size: 10pt;
+    }
+    th, td {
+      border: 1px solid #cccccc;
+      padding: 6px 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background-color: #f3f3f3;
+      font-weight: bold;
+      color: #202124;
+    }
+    .niv0 { 
+      background-color: #e8f0fe; 
+      font-weight: bold; 
+    }
+    .niv1 { 
+      background-color: #f8f9fa; 
+      font-weight: bold; 
+    }
+    .niv2 { 
+      background-color: #ffffff; 
+      font-weight: bold; 
+    }
+    .niv3 { 
+      background-color: #ffffff; 
+    }
+    .niv3 .nom {
+      padding-left: 24px; /* Indentation pour les tâches */
+    }
+    .code { 
+      font-family: 'Courier New', Courier, monospace; 
+      color: #5f6368; 
+      width: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Projet : Robot bio hybride PSE Mycélium</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Code</th>
+        <th>Nom de la tâche / Lot</th>
+        <th>Livrable</th>
+        <th>Responsable</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- NIVEAU 0 -->
+      <tr class="niv0">
+        <td class="code">0</td>
+        <td>Projet : Robot bio hybride PSE Mycélium</td>
+        <td>Mesurer l'activité électrique d'un mycélium avec un montage XIAO + ADS1220</td>
+        <td></td>
+      </tr>
+
+      <!-- NIVEAU 1 : MANAGEMENT -->
+      <tr class="niv1">
+        <td class="code">1</td>
+        <td>Management</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="niv2">
+        <td class="code">1.1</td>
+        <td>Pilotage</td>
+        <td>Comptes rendus de séance</td>
+        <td>Chef de projet</td>
+      </tr>
+      <tr class="niv3">
+        <td class="code">1.1.1</td>
+        <td class="nom">Compte rendu de fin de séance</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="niv3">
+        <td class="code">1.1.2</td>
+        <td class="nom">Notion</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="niv2">
+        <td class="code">1.2</td>
+        <td>Livrables</td>
+        <td>Soutenance</td>
+        <td>Chef de projet</td>
+      </tr>
+      <tr class="niv3">
+        <td class="code">1.2.1</td>
+        <td class="nom">Soutenance</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="niv3">
+        <td class="code">1.2.2</td>
+        <td class="nom">Archivage données et code</td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <!-- NIVEAU 1 : BIOLOGIE -->
+      <tr class="niv1">
+        <td class="code">2</td>
+        <td>Biologie</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="niv2">
+        <td class="code">2.1</td>
+        <td>Approvisionnement</td>
+        <td>Matières biologiques prêtes</td>
+        <td>Responsable biologie</td>
+      </tr>
+      <tr class="niv3">
+        <td class="code">2.1.1</td>
+        <td class="nom">Semences</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="niv3">
+        <td class="code">2.1.2</td>
+        <td class="nom">Substrats et dextrose</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="niv3">
+        <td class="code">2.1.3</td>
+        <td class="nom">Consommables stériles</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="niv2">
+        <td class="code">2.2</td>
+        <td>Culture</td>
+        <td>Cultures colonisées et saines</td>
+        <td>Responsable biologie</td>
+      </tr>
+      <tr class="niv3">
+        <td class="code">2.2.1</td>
+        <td class="nom">Milieu PDA</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="niv3">
+        <td class="code">2.2.2</td>
+        <td class="nom">Inoculation</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="niv3">
+        <td class="code">2.2.3</td>
+        <td class="nom">Incubation et suivi de croissance</td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <!-- NIVEAU 1 : MATÉRIEL -->
+      <tr class="niv1">
+        <td class="code">3</td>
+        <td>Matériel</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="niv2">
+        <td class="code">3.1</td>
+        <td>Achats</td>
+        <td>Matériel complet réceptionné</td>
+        <td>Responsable matériel</td>
+      </tr>
+      <tr class="niv3">
+        <td class="code">3.1.1</td>
+        <td class="nom">XIAO ESP32 + ADS1220</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="niv3">
+        <td class="code">3.1.2</td>
+        <td class="nom">Batterie + adaptateur</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="niv3">
+        <td class="code">3.1.3</td>
+        <td class="nom">Micro SD</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="niv3">
+        <td class="code">3.1.4</td>
+        <td class="nom">Électrodes</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="niv2">
+        <td class="code">3.2</td>
+        <td>Assemblage et test</td>
+        <td>Banc d'acquisition validé</td>
+        <td>Responsable matériel</td>
+      </tr>
+      <tr class="niv3">
+        <td class="code">3.2.1</td>
+        <td class="nom">Câblage</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="niv3">
+        <td class="code">3.2.2</td>
+        <td class="nom">Code ESP32</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="niv3">
+        <td class="code">3.2.3</td>
+        <td class="nom">Test à vide</td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <!-- NIVEAU 1 : EXPÉRIMENTATION -->
+      <tr class="niv1">
+        <td class="code">4</td>
+        <td>Expérimentation</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="niv2">
+        <td class="code">4.1</td>
+        <td>Préparation</td>
+        <td>Échantillons et solutions mesurés</td>
+        <td>Responsable expérience</td>
+      </tr>
+      <tr class="niv3">
+        <td class="code">4.1.1</td>
+        <td class="nom">Mesure échantillons</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="niv3">
+        <td class="code">4.1.2</td>
+        <td class="nom">Mesure solutions de stimulation</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="niv2">
+        <td class="code">4.2</td>
+        <td>Acquisition</td>
+        <td>Données brutes baseline et stimulation</td>
+        <td>Responsable expérience</td>
+      </tr>
+      <tr class="niv3">
+        <td class="code">4.2.1</td>
+        <td class="nom">Baseline</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="niv3">
+        <td class="code">4.2.2</td>
+        <td class="nom">Stimulation</td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <!-- NIVEAU 1 : ANALYSE -->
+      <tr class="niv1">
+        <td class="code">5</td>
+        <td>Analyse</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="niv2">
+        <td class="code">5.1</td>
+        <td>Traitement du signal</td>
+        <td>Données filtrées et annotées</td>
+        <td>Responsable analyse</td>
+      </tr>
+      <tr class="niv3">
+        <td class="code">5.1.1</td>
+        <td class="nom">Import et nettoyage</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="niv3">
+        <td class="code">5.1.2</td>
+        <td class="nom">Filtrage</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="niv3">
+        <td class="code">5.1.3</td>
+        <td class="nom">Détection de pics</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="niv2">
+        <td class="code">5.2</td>
+        <td>Interprétation</td>
+        <td>Résultats et figures</td>
+        <td>Responsable analyse</td>
+      </tr>
+      <tr class="niv3">
+        <td class="code">5.2.1</td>
+        <td class="nom">Stats baseline vs stimulation</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="niv3">
+        <td class="code">5.2.2</td>
+        <td class="nom">Figures</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="niv3">
+        <td class="code">5.2.3</td>
+        <td class="nom">Limites et discussion</td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
+
